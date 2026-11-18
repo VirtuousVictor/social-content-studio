@@ -1,0 +1,714 @@
+{
+  "algorithm": "SHA-256",
+  "scope": [
+    "multi-model-router",
+    "seedance-tvc-director",
+    "tvc-ai-director",
+    "tvc-ai-production-coordinator",
+    "tvc-ai-shot-prompter",
+    "tvc-brief-strategist",
+    "tvc-client-review-interpreter",
+    "tvc-concept-developer",
+    "tvc-director",
+    "tvc-director-treatment",
+    "tvc-editing-director",
+    "tvc-ppm-producer",
+    "tvc-storyboard-writer"
+  ],
+  "files_total": 71,
+  "source_bytes_total": 446373,
+  "source_markdown_files": 54,
+  "source_markdown_bytes": 391360,
+  "section_digest_format": "In the full text library, take the text after the source module heading and before the next source module anchor or EOF. Normalize newlines to LF, strip surrounding whitespace, remove the trailing Markdown separator (---) and strip again. Hash UTF-8 bytes. A source_frontmatter_sha256_lf covers original YAML including both --- delimiters, normalized to LF and no final newline. The sha256 field for every file is always over all original file bytes.",
+  "files": [
+    {
+      "source": "multi-model-router/SKILL.md",
+      "bytes": 3808,
+      "sha256": "ac2ac234615deb769b0adeb1759979f634298630972ebfeae2cce8b0f8401b75",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-multi-model-router-skill-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "5325e1ce50eb7ce5cc2b327ae8cd175b046a6aa70d2530a21603e1d60487c3f4",
+      "source_frontmatter_sha256_lf": "4e894d3805946f15af4d0e87f20bc2618e81e439932122fbc6428ab561368d7e"
+    },
+    {
+      "source": "multi-model-router/agents/openai.yaml",
+      "bytes": 222,
+      "sha256": "d0edd301506913940bb0d7efa32c64b3b3321d95be15621e2c4a8398ff3b55c3",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "multi-model-router/agents/openai.yaml"
+    },
+    {
+      "source": "multi-model-router/references/router-gate-patterns.md",
+      "bytes": 1119,
+      "sha256": "c77dcaeca9d11fefd4c155c3efb6965c3e0ff18457d02a47b5ee201e905426f0",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-multi-model-router-references-router-gate-patterns-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "892e20b97c78872effdf0411952a10218c7d7b1cf00a70359f46f3b25f27f40e"
+    },
+    {
+      "source": "seedance-tvc-director/SKILL.md",
+      "bytes": 19816,
+      "sha256": "b808173b8077437a463e7d78ef7c1f15617316e8b34e02d7670043362f4dc655",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-skill-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "7cc052b5c26c95d853d63c0386c4d73e9edb048f62740efd8d166f0e7cdb93db",
+      "source_frontmatter_sha256_lf": "8946ea1ff36015f344740a14e42b7b3ba2ec1d87a9a924886b19d6f5962ba57d"
+    },
+    {
+      "source": "seedance-tvc-director/agents/openai.yaml",
+      "bytes": 359,
+      "sha256": "6b8654cfc37cd4d723f9eaf8f39df729a832abd2e8121817652728d80b911b89",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "seedance-tvc-director/agents/openai.yaml"
+    },
+    {
+      "source": "seedance-tvc-director/evals/evals.json",
+      "bytes": 40325,
+      "sha256": "b1335e58232931d11e15660f8a265637539662294afaddc48ddef90e25e56ac1",
+      "kind": "evaluation fixture",
+      "package_file": "evals/seedance-tvc-cases.json"
+    },
+    {
+      "source": "seedance-tvc-director/references/ad-hook.md",
+      "bytes": 5136,
+      "sha256": "c741b7d94fa4baeb3d6250e2ce8a7504730756f0bb7b135ef57dc115422ee33a",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-ad-hook-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "321f3c449471d95599c0f98286c08f3994e66d244a6117ee072a7c4381b69438"
+    },
+    {
+      "source": "seedance-tvc-director/references/brief-and-concept.md",
+      "bytes": 2744,
+      "sha256": "46f7ea279f729687d199a84669ab73ca3642f1548d421381a6b1fca9b7ccf5e8",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-brief-and-concept-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "b50dba7ba8e0ec410528e6b4b16c599db3bf2a24b10d77a564e6d8f994200fd8"
+    },
+    {
+      "source": "seedance-tvc-director/references/casting-and-beauty-direction.md",
+      "bytes": 3740,
+      "sha256": "da25a9c9019c7b2d5cd8bd8974e8e3ab81f78d334f04bcd201d77abc93ee1a26",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-casting-and-beauty-direction-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "dc34f1b2291b42cacfbe13cfc9556ee07ff0f6d479e7ab544bdc9e3c9de79c9b"
+    },
+    {
+      "source": "seedance-tvc-director/references/delivery-and-qc.md",
+      "bytes": 14773,
+      "sha256": "21769fecf7bf73a1335ac77a49502005d67d934fd271dab94eb917b4efb2fde1",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-delivery-and-qc-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "901436ec3c38fd8730b6c87e15304455db3fb7375bf83c944205b1eda3f3a5ed"
+    },
+    {
+      "source": "seedance-tvc-director/references/ensemble-continuity.md",
+      "bytes": 5583,
+      "sha256": "68e96e12164ef1722a439767806f641dabb8132603c2db0ae1b68a80c1c7bdf0",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-ensemble-continuity-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "5d8a77d9c9ac4a66786ca24e42842d14cfba4ba60bfadb7f75827bf0082a8ba1"
+    },
+    {
+      "source": "seedance-tvc-director/references/examples.md",
+      "bytes": 2364,
+      "sha256": "90f25d7fb27eb3974607b4c4c41da80140c4ec3f1329f995c1ffe5388678f817",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-examples-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "9d42b40c0d8f614e9d846b5d5aa242decaba5cdc8ef0f59df85c1da9b2966bc2"
+    },
+    {
+      "source": "seedance-tvc-director/references/food-flavor-direction.md",
+      "bytes": 4462,
+      "sha256": "4cda2b8c9e3b039d732354068606018b05bee506d4d69be89bca28373496bd78",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-food-flavor-direction-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "defad1cc73b5f568705ea7dcae08be3a53c0779635fd24e6c778b57ca336eeef"
+    },
+    {
+      "source": "seedance-tvc-director/references/generation-modes.md",
+      "bytes": 9324,
+      "sha256": "6c4fc2310c986d37d4cc3a7685e0f29d6646dfe7b95aa7ad397dcc8dbef1668e",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-generation-modes-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "a470c34f4842a033c8ceb75bca7767ee21a78d9cac093b7166960ab4d94d9d9e"
+    },
+    {
+      "source": "seedance-tvc-director/references/model-and-segmentation-routing.md",
+      "bytes": 5767,
+      "sha256": "2b3e79c7cac601c9e3f3e33293cbfd307647cfe4861c1d3673982993019184ca",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-model-and-segmentation-routing-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "3ab1b9e62f65e7fadebf85e8a6548545a5259158e317fc72c89f3d8f015f0cae"
+    },
+    {
+      "source": "seedance-tvc-director/references/pacing-and-shot-density.md",
+      "bytes": 6016,
+      "sha256": "8376f76b5ddfb858562bc1a49e12c36f7cbda979ea90cb1cebb526855550b146",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-pacing-and-shot-density-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "82d5ba267a291720b7f086e7bcb7c61e2c5f75f48fda3cda0370e4cf18b5803d"
+    },
+    {
+      "source": "seedance-tvc-director/references/product-actions.md",
+      "bytes": 3851,
+      "sha256": "ec7354483fba2e27e91ddf0f35f53c3e4d957467f5b390e6c65e56fa0bb52b1c",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-product-actions-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "a45eaf857e2a389ddb0afb8bab3759d47002f6b550dae6805f839f73185b81ae"
+    },
+    {
+      "source": "seedance-tvc-director/references/scene-progression.md",
+      "bytes": 11679,
+      "sha256": "3ce1fe921474e1f0e17525bf983b4a53fac7c4012c17101105336ee6367bc55a",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-scene-progression-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "b65ff6440f44809ab945e424ad395e15c3dc10e17da7e418638e1791b31a2834"
+    },
+    {
+      "source": "seedance-tvc-director/references/seedance-2-5-prompting.md",
+      "bytes": 11372,
+      "sha256": "329a0c09da18e1ddbdc3691aa7e54cc9920c04b5c4b2ae5d61600390394dc422",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-seedance-2-5-prompting-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "19be774dbcf72767573df0bbbdca235a50fe8538afbc396f7dee778953aa1d2f"
+    },
+    {
+      "source": "seedance-tvc-director/references/shot-handoffs-and-sound-bridges.md",
+      "bytes": 7128,
+      "sha256": "fd4f3b7bec5af1a0708b1c78110a0b40245e49418132c28bf8ab5b81a50dab74",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-shot-handoffs-and-sound-bridges-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "ed2ad3f616b045df3df68a50338b2ed3ac6bf3f7641d1bea4ce6ed25bf90ccbe"
+    },
+    {
+      "source": "seedance-tvc-director/references/tvc-structure.md",
+      "bytes": 8463,
+      "sha256": "c3727bb6b7bcc3f452e291cc5920a736d0ba7f5949f82aaab08ea8b97ccc90ea",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-tvc-structure-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "251732ec81e882256e5e6727f846b9c43f8b65d0a1a9c21c7b3551c52430d81a"
+    },
+    {
+      "source": "seedance-tvc-director/references/voiceover.md",
+      "bytes": 9516,
+      "sha256": "4c81cbe25ba994d76a6fd02b14e99d9ab739b8dc5634d4b82888460a27f5eb65",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-seedance-tvc-director-references-voiceover-md",
+      "integrated_method": "references/complete-professional-source-library.md",
+      "section_sha256": "7c6afcb05a1cd3cea8d2a8fae0a96d11d6bcdcd1dd8841500386622aeee77de2"
+    },
+    {
+      "source": "tvc-ai-director/SKILL.md",
+      "bytes": 7781,
+      "sha256": "2113b93c1c84b23c960e543ffd54a19dc2ca6e74275b6ec5ab3720d5c8df6c30",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-skill-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "951c9f22859ff5dfa6d53822154aa2dd0581d25427cd644d09dadffa86d8110f",
+      "source_frontmatter_sha256_lf": "9d962b122401ebc7fe9662a91743b8875e0255a342a404c503896f1bb875326a"
+    },
+    {
+      "source": "tvc-ai-director/agents/openai.yaml",
+      "bytes": 195,
+      "sha256": "7dd6d57714ceef3ac4da23113eb55e694d5e042d5d2044a5ff5dc64911f6c370",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ai-director/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/ai-prompt-template.md",
+      "bytes": 177,
+      "sha256": "8c54d736f804017cd418540e0eca0033b88a771ab3b6019e97fff3d6b898916e",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-ai-prompt-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "8b6fe022bb1fde34b9bb60557dc2f1d6ece5d929ca602a4abb035f3850973f49"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/brief-template.md",
+      "bytes": 399,
+      "sha256": "b920a408b786445c2caa89873d5c6591f86a7850bb87d30fab665736b962355d",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-brief-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "fea39ae0ae914a9c7fc5da59cf38b888dfd1866b40abbf905104b0c8f13524d5"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/director-treatment-template.md",
+      "bytes": 272,
+      "sha256": "9887fdcdf8dc05ee207b5abda4c917e6eb44b78b11ddeea1ef87afb6ced76c8b",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-director-treatment-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "b6377f3480bf3671932d9fbfbd31b930c7edf4dd916c1dcfea13bedb63ba6564"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/editing-template.md",
+      "bytes": 290,
+      "sha256": "ce87e58c199d20f0c49889b819ded52dcea8098229667e6b04d12af2a84aad4e",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-editing-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "465157c6b5af676a3f3f5aba98723a69c07d3a622b37b6b62c932005150c9c3c"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/ppm-template.md",
+      "bytes": 423,
+      "sha256": "c3f8c0efbbc95732c73be9264557d12b50db1e5d5d3682eb891a95a1ff8961c9",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-ppm-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "ed84cebe0cf65912cb5110fab9dceea5cc670aad03a3e3aac41249282235084a"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/proposal-template.md",
+      "bytes": 252,
+      "sha256": "9d2517d0c30c2379c1182cf063631861bf46d32b582a01cc1b51a86e02218c13",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-proposal-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "9b05879fb6544a54a1d832e5377b23bf665b1a60ac6edd04c16494f8c4fd37c1"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/review-template.md",
+      "bytes": 222,
+      "sha256": "94648f25c9a89ddf893ca1db5afc7250ae9d0cafad202916e4c8702edaf3e006",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-review-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "04acb263b234c2edb1e633c39859e3eb94ef13c39629bcc2307affbf84488eb6"
+    },
+    {
+      "source": "tvc-ai-director/assets/templates/storyboard-template.md",
+      "bytes": 268,
+      "sha256": "dc043d268c62e82571293c3d87e0a87d5e9c5b695f5e7078877058d14e6663b4",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-assets-templates-storyboard-template-md",
+      "integrated_method": "assets/templates/professional-template-library.md",
+      "section_sha256": "f47cafcf2d95ee453781b5f443502857f1a9f973c407baf6aad4185698b375e7"
+    },
+    {
+      "source": "tvc-ai-director/references/category-playbooks.md",
+      "bytes": 2425,
+      "sha256": "8b2ff93b1f7c826d73099737bfed229643d37a8aa5af5925f28f35bb5571cc52",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-references-category-playbooks-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "18481dd2130acd5e1319c327f2f6cd71370ae8afd43c43d0faa6fd37b4103b5f"
+    },
+    {
+      "source": "tvc-ai-director/references/client-communication.md",
+      "bytes": 2026,
+      "sha256": "81451c2564d5c4e55f93bbbb3fc54cbce82d57ecf54803916031511d2617a691",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-references-client-communication-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "202952932442d6076cb8ee5160749c519cf228d342c4c55113eaa2946cc04685"
+    },
+    {
+      "source": "tvc-ai-director/references/prompt-style-guide.md",
+      "bytes": 3083,
+      "sha256": "b4fd33000d08ac60e347693e2ec1eed2eb5773c1f390a778d207242b6fbb5e30",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-references-prompt-style-guide-md",
+      "integrated_method": "references/complete-visual-assets-and-image-prompt-methods.md",
+      "section_sha256": "21c09bc20d450a7a91b50c370cd49491b92edb803cfa9a0e081065b066c6b6c1"
+    },
+    {
+      "source": "tvc-ai-director/references/tvc-quality-bar.md",
+      "bytes": 2062,
+      "sha256": "73884723e71e92916cac3522236b6c488e6a962073ff5497e08b3e25dbf58879",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-references-tvc-quality-bar-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "453284ca1468faf618df97468ef035826b45a74dc8aa9c44310706381e6497e9"
+    },
+    {
+      "source": "tvc-ai-director/references/tvc-workflow-map.md",
+      "bytes": 3235,
+      "sha256": "dd6f87d02e05485c4b325827ca24a4cd7526867d42483a74cff02b0b577b507a",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-director-references-tvc-workflow-map-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "525507aebe13bb6c2cbbb1c2780e826a31291ea15e2e0c2f779bbe63df933fbe"
+    },
+    {
+      "source": "tvc-ai-director/scripts/make_tvc_excel.py",
+      "bytes": 9105,
+      "sha256": "24cf05aab9aec92713b39f25fc170aea4726697994ac47238d8f57147bf80b32",
+      "kind": "converter source",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ai-director/scripts/make_tvc_excel.py",
+      "integrated_method": "scripts/make_content_excel.py"
+    },
+    {
+      "source": "tvc-ai-director/scripts/make_tvc_tables.py",
+      "bytes": 1747,
+      "sha256": "92eb28f2cf9bba676b194a80534262c50959e4e02f3a9f6c5e37d61af644fafe",
+      "kind": "converter source",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ai-director/scripts/make_tvc_tables.py",
+      "integrated_method": "scripts/make_content_tables.py"
+    },
+    {
+      "source": "tvc-ai-production-coordinator/SKILL.md",
+      "bytes": 1517,
+      "sha256": "9a0356a7bc2474c4b55e80643a4fdb54ca6123d89880ab304b7d7449dba931d1",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-production-coordinator-skill-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "46b3480a5d94a1c75ba1b0b5c3e7ae0ee8df9338c27ff47deb5461120a1b5912",
+      "source_frontmatter_sha256_lf": "ea8366e463fd6024b9ec6e71c87f12ae0ac18769d6836af3fb4289904d66f789"
+    },
+    {
+      "source": "tvc-ai-production-coordinator/agents/openai.yaml",
+      "bytes": 230,
+      "sha256": "c1993cb9a454fa7d2ac5bd3b8fd457b7e992e937ed66ff4f197410e3e020525f",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ai-production-coordinator/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-ai-shot-prompter/SKILL.md",
+      "bytes": 4961,
+      "sha256": "297849f943071bd5de38521697f61c91dbe2992a0d1cb7023a8c4dbe21d51e31",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-shot-prompter-skill-md",
+      "integrated_method": "references/complete-storyboard-and-video-prompt-methods.md",
+      "section_sha256": "50c9df63a1a1e1d60f62cad3a3ffaf575dea52513ee4dbd03830bfba063fdbf7",
+      "source_frontmatter_sha256_lf": "dfdd08431a60da29a8399e89b558845eb03a82fe5a79011b11924cd557777245"
+    },
+    {
+      "source": "tvc-ai-shot-prompter/agents/openai.yaml",
+      "bytes": 224,
+      "sha256": "44c87b054175b0ff087e3b82777e7ac88ff83e391905a5361ea9afb92b8f9571",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ai-shot-prompter/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-ai-shot-prompter/references/image-prompt-method.md",
+      "bytes": 2317,
+      "sha256": "7f717ba7ffdc15f12d20a04df44c740e828c94f3d010543f2b427d762322adb4",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-shot-prompter-references-image-prompt-method-md",
+      "integrated_method": "references/complete-visual-assets-and-image-prompt-methods.md",
+      "section_sha256": "1c067d1ed86fa777e6584450d36d0d5be7b8a65ef831fe21d8830404c65a54a4"
+    },
+    {
+      "source": "tvc-ai-shot-prompter/references/video-prompt-method.md",
+      "bytes": 9198,
+      "sha256": "80d0baeec4b6a66355096e7aabacf1399d0e0c029677d34c027b1cdcc6d8605f",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ai-shot-prompter-references-video-prompt-method-md",
+      "integrated_method": "references/complete-storyboard-and-video-prompt-methods.md",
+      "section_sha256": "98e90ed8e3685cc91eb18035ad494b7ea0f5c9aab19318bc19baa8c3e04a6308"
+    },
+    {
+      "source": "tvc-brief-strategist/SKILL.md",
+      "bytes": 3226,
+      "sha256": "031c6bedb75d40e9956a13eb970b8e501c2abb14b290ce3b2ee0ca38ef76d031",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-brief-strategist-skill-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "e6860f7a4a637410624ff817eb839e4d63c5aa125c57cd6810737bacc864cc69",
+      "source_frontmatter_sha256_lf": "f1cae69a3570e9594cb7e4f321963e6b3fe9164812ae5945c9f1d174cc9fe534"
+    },
+    {
+      "source": "tvc-brief-strategist/agents/openai.yaml",
+      "bytes": 210,
+      "sha256": "276a8fe99cbd3e6e4dcddbb20aa162f9a2a0133f02ba2c23b9ca75799b48c3a5",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-brief-strategist/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-client-review-interpreter/SKILL.md",
+      "bytes": 1617,
+      "sha256": "162b8a2955bbf33e9b0a2db9c988003e54a84138895be884c482bd7405da1e89",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-client-review-interpreter-skill-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "8eadd0722d8028fb9a1ed3d4dedeefc2c84c38941bcdde098a5297d5eefc17f9",
+      "source_frontmatter_sha256_lf": "d6f919de0e89e6d8cbdd7769d22e93b9eec8e09c887c1952d5812a6732c1b4e2"
+    },
+    {
+      "source": "tvc-client-review-interpreter/agents/openai.yaml",
+      "bytes": 244,
+      "sha256": "be91039542fa0ee7448b282ca49252e89a516cbc14575448493df6f1dd5a002d",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-client-review-interpreter/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-concept-developer/SKILL.md",
+      "bytes": 4678,
+      "sha256": "c15c7e335e23a9600433601021ee99a1d7a5c8269c0fafff02a8975e8ec33e36",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-concept-developer-skill-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "77db7febb481669ff71427c9bfbdfddd0db7d18502a9370e0aa17b01d4120fa2",
+      "source_frontmatter_sha256_lf": "61dd7ef063c81097df277561626fa25ce9bcfe771ba2a270d3c83f010136a797"
+    },
+    {
+      "source": "tvc-concept-developer/agents/openai.yaml",
+      "bytes": 202,
+      "sha256": "ffcbbda4bf27c7575a0d9ba788c0b67248ade8b29d9b1d62cee34a1f11ab1e6e",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-concept-developer/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-concept-developer/references/proposal-logic.md",
+      "bytes": 2288,
+      "sha256": "5164e09e50e57c1dd9c681503f20eeb7e755c914d25f29f17f05428d7f233d06",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-concept-developer-references-proposal-logic-md",
+      "integrated_method": "references/complete-brief-routing-and-concept-methods.md",
+      "section_sha256": "bb01f99867c5a6fea05c3700bf4e992f7fc29937e1a2b666e494c7469452c3e7"
+    },
+    {
+      "source": "tvc-director-treatment/SKILL.md",
+      "bytes": 5088,
+      "sha256": "825eb1c48a8383e055cf596a448e1d2f267899c16c546784edb8f5525b4c3738",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-treatment-skill-md",
+      "integrated_method": "references/complete-cinematic-direction-and-treatment-methods.md",
+      "section_sha256": "15e0e9a92e33222cd0c1605607add0dde0331d3396e7a9fd60096748743eccf5",
+      "source_frontmatter_sha256_lf": "e3f0cc6d8e26d24c61564520bc6a8666f0c326b85bfbe95fdc574e6d6c0e565d"
+    },
+    {
+      "source": "tvc-director-treatment/agents/openai.yaml",
+      "bytes": 221,
+      "sha256": "e7e0e01aac50e8051967dbdec72b57c5af5c0741a159b658d7a8eea4d6426e74",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-director-treatment/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-director-treatment/references/visual-development.md",
+      "bytes": 3854,
+      "sha256": "3dae76263c8b73c334f8cb9bafb0ab3719b3ccd6d8078e99c3caf34b22a71db9",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-treatment-references-visual-development-md",
+      "integrated_method": "references/complete-cinematic-direction-and-treatment-methods.md",
+      "section_sha256": "9f583e2c52e5d03f356c17343d0f6be658a202f1cc96a8e075eca9b721959ef3"
+    },
+    {
+      "source": "tvc-director/.gitignore",
+      "bytes": 16,
+      "sha256": "004511fce2f8d66699973a612997deeedb708c1dbba6db7cf5445cf3f9485c93",
+      "kind": "upstream repository setting",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-director/.gitignore"
+    },
+    {
+      "source": "tvc-director/LICENSE",
+      "bytes": 1067,
+      "sha256": "d5ddbca6d673d5f02b30ce0e576db65c36d46ef9f2f7bd78f84558452055a068",
+      "kind": "license",
+      "package_file": "licenses/TVC-DIRECTOR-MIT.txt"
+    },
+    {
+      "source": "tvc-director/README.md",
+      "bytes": 9098,
+      "sha256": "18978914c6cf23bc46960e58843bef51965db756a96c12ed6d268b6026637c0a",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-readme-md",
+      "integrated_method": "references/professional-source-overviews.md",
+      "section_sha256": "20ad91df5fa4954ac2850c854fc62608eb0ee8d0bf537d9bc3ae856cd58979e8"
+    },
+    {
+      "source": "tvc-director/README_en.md",
+      "bytes": 9624,
+      "sha256": "266fcb734ec442448d5e54e547e2c437be16ef70c0a9906bff2372b0f3e25754",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-readme-en-md",
+      "integrated_method": "references/professional-source-overviews.md",
+      "section_sha256": "87117ba5dc0bb460f7498947a474952b3d87fede0fc2eed716ed8af7ec49bd1e"
+    },
+    {
+      "source": "tvc-director/SKILL.md",
+      "bytes": 31519,
+      "sha256": "c1cd8daba278dabe5f553bdef02bced37dbd9054a78ac58b3ab8875bc35a7b08",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-skill-md",
+      "integrated_method": "references/complete-cinematic-direction-and-treatment-methods.md",
+      "section_sha256": "1ffb59180bcb781b18f23b93a6b5153156e40e9678ae60e6c92766aab220ffc2",
+      "source_frontmatter_sha256_lf": "4d57081226801cedaa7dbdab37f4c8891da2df531175cba8c359f55560856bea"
+    },
+    {
+      "source": "tvc-director/references/delivery.md",
+      "bytes": 22932,
+      "sha256": "b49e1ef124ce1ebc40a70b39cf37c912ac9b21df7d4855a764cae42bfb1597ad",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-references-delivery-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "3696dc46731c8321809ecc111b1eef5f00cdabb0d5b7a612086a8c6b8710144c"
+    },
+    {
+      "source": "tvc-director/references/pre-production.md",
+      "bytes": 15689,
+      "sha256": "886b958181bebb1acc646d270e6d9aa5a39b675fdee54e84ca9edcc8e8cb50d0",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-references-pre-production-md",
+      "integrated_method": "references/complete-visual-assets-and-image-prompt-methods.md",
+      "section_sha256": "17018fc276fabec773d52947c060fb16801c24bc4904cc9d901a6f82925f3aaa"
+    },
+    {
+      "source": "tvc-director/references/shot-language.md",
+      "bytes": 25889,
+      "sha256": "dadbe5b1ad9d09a7ce3f6f9f59a197d38b26781afc4d783fa1dee6eb717aa8e9",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-references-shot-language-md",
+      "integrated_method": "references/complete-visual-assets-and-image-prompt-methods.md",
+      "section_sha256": "819bd0816d1449c902d882ca4bba2d365f4680decfe2b6d4b0ecb34de0ab6f98"
+    },
+    {
+      "source": "tvc-director/references/storyboard.md",
+      "bytes": 61328,
+      "sha256": "eb1a20d3cb1cb2c58d2e6293de25b58dc60bb5781687287c96dcc35c2489c630",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-references-storyboard-md",
+      "integrated_method": "references/complete-storyboard-and-video-prompt-methods.md",
+      "section_sha256": "96315a051eff10e9adb0cfc5de2d915fd9057953fd706494acf26e4f44a57aae"
+    },
+    {
+      "source": "tvc-director/references/treatment.md",
+      "bytes": 9889,
+      "sha256": "9692d6efab17b8311d870a9811211c24c218a98f187a268a6d1057fd80ec6cd3",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-director-references-treatment-md",
+      "integrated_method": "references/complete-cinematic-direction-and-treatment-methods.md",
+      "section_sha256": "d4d14075f6eb800d3917d8dc3d8f51a6301f768af945a17aad80af02e7d0ad96"
+    },
+    {
+      "source": "tvc-editing-director/SKILL.md",
+      "bytes": 1298,
+      "sha256": "67ed37618a07cf5d2e822a9f0cf6d47268235dd3164fff34759b08ea11bf9fbd",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-editing-director-skill-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "f78a2b763f8ac96e65a87bf9b474b27b50795e26029aaec5685b613b9610d0ec",
+      "source_frontmatter_sha256_lf": "92404bfad18d9d52661d1e9cd70bdc5298ba93991ce9be5865df6369e090225f"
+    },
+    {
+      "source": "tvc-editing-director/agents/openai.yaml",
+      "bytes": 217,
+      "sha256": "41cc66606268629de195443b6a8b7ea651031c47d82fd4fb2e4a17677b2a61de",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-editing-director/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-ppm-producer/SKILL.md",
+      "bytes": 1532,
+      "sha256": "3e5c979152d39e258102f096339db530a87dc485f8b382c2b945b510691127ee",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-ppm-producer-skill-md",
+      "integrated_method": "references/complete-production-review-and-delivery-methods.md",
+      "section_sha256": "41445e76354882c0cc8af631463ee497a32f2f404632f77893f7b0247a27efb9",
+      "source_frontmatter_sha256_lf": "5977032e14235280478ddf2f36ed13ecb849f6395811126c7c40ad350861a790"
+    },
+    {
+      "source": "tvc-ppm-producer/agents/openai.yaml",
+      "bytes": 199,
+      "sha256": "c4c12ffda2fbffd695d5c6e7c2f2798cc885de9505e598c3f1c67d301407c77f",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-ppm-producer/agents/openai.yaml"
+    },
+    {
+      "source": "tvc-storyboard-writer/SKILL.md",
+      "bytes": 4242,
+      "sha256": "ecaee13dbfb58ea4e99edcedc75d9b62dd9db02c7b1ad02ca0622f2ac466a0d9",
+      "kind": "markdown",
+      "package_file": "references/complete-professional-source-library.md",
+      "anchor": "src-tvc-storyboard-writer-skill-md",
+      "integrated_method": "references/complete-storyboard-and-video-prompt-methods.md",
+      "section_sha256": "915a80f57586734b2993a829c74784da7d929c3f1faa4d8890589dd1c224df4f",
+      "source_frontmatter_sha256_lf": "36a961ca8e0bc36bbf0aa80b5aa727926ec7fbbe29ed4821b9d418be8fc3a31e"
+    },
+    {
+      "source": "tvc-storyboard-writer/agents/openai.yaml",
+      "bytes": 230,
+      "sha256": "45e1514d5fed078db490013e96f8494050379442e34a0649d52449d1ac8a008a",
+      "kind": "standalone UI metadata",
+      "package_file": "references/source-auxiliary-records.json",
+      "json_record": "tvc-storyboard-writer/agents/openai.yaml"
+    }
+  ]
+}
